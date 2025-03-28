@@ -13,13 +13,13 @@ export default function Services() {
   const [BannerHomeLoading, setBannerHomeLoading] = useState(false);
   const sections = [
     {
-      title: "Intervención TDAH adultos",
+      title: "Intervención Psicológica adultos",
       content: "Tienes las fortalezas necesarias para conseguir tus metas. Quizás requieras apoyo para descubrirlas y poder avanzar. Puedes contar conmigo para ayudarte. Trabajamos en distintas áreas para mejorar los síntomas, sentirte mejor contigo mismo(a), con los demás y poder afrontar tu día a día.",
       image: "/intervencion.jpg",
       alt: "Descripción de la imagen 1"
     },
     {
-      title: "Terapia TDAH niños y adolescentes",
+      title: "Terapia niños y adolescentes",
       content: "Con juegos, cuentos, comics, vídeos, historias, dibujos…. los niños(as) y adolescentes practican habilidades nuevas que les ayudan a mejorar el autocontrol, la atención, las funciones ejecutivas y la gestión de la impulsividad. También trabajan para mejorar las habilidades sociales, regular las emociones, manejar la frustración y el estrés. Así, pueden enfrentar mejor los retos académicos y personales, reforzando su autoestima.",
       image: "/grupo.jpg",
       alt: "Descripción de la imagen 2"
@@ -43,30 +43,22 @@ export default function Services() {
       alt: "Descripción de la imagen 4"
     },
     {
-      title:"Talleres para adultos",
+      title:"Talleres",
       content: (
         <>
         <div>
-          <h3 className="font-bold">1 Para padres con hijos(as) con TDAH</h3>
-          <p>Cada mes se realizan talleres para padres con el objetivo de avanzar en sus conocimientos sobre el TDAH, crear estrategias y ponerlas en práctica. Encuentran apoyo en otros padres y salen fortalecidos para tomar el control de la mejora de los síntomas y del ambiente familiar.</p>
+          <h3 className="font-bold">Conferencias, talleres y grupos para el bienestar psicoemocional</h3>
+         
           <ul className="list-disc list-inside">
-            <li>Psicoeducación, sobre el TDAH y su tratamiento.</li>
-            <li>Importancia de los límites y las normas</li>
+            <li>Psicoeducación</li>
             <li>Autoestima</li>
-            <li>La regulación emocional y otras funciones ejecutivas</li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="font-bold">2 Para adultos con TDAH</h3>
-          <p>Se proponen grupos de trabajo con el objetivo de intercambiar información, estrategias efectivas y apoyar el avance en la mejora de los síntomas.</p>
-          <ul className="list-disc list-inside">
-            <li>Psicoeducación, sobre el TDAH y su tratamiento.</li>
-            <li>Regulación emocional y control de la impulsividad.</li>
+            <li>Regulación emocional y otras funciones ejecutivas</li>
+            <li>Control de la impulsividad.</li>
             <li>Habilidades sociales y de comunicación.</li>
             <li>Resolución de problemas.</li>
-            <li>Autoestima.</li>
           </ul>
         </div>
+    
         </>
       ),
       image: "/talleres.jpg",
@@ -82,12 +74,6 @@ export default function Services() {
       ),
       image: "/evaluacion.jpg",
       alt: "Descripción de la imagen 5"
-    },
-    {
-      title: "Entrenamiento padres",
-      content: "Aprendemos técnicas y principios para fomentar la disciplina constructiva, establecer límites claros y promover la comunicación efectiva. Los padres aprenden a manejar comportamientos desafiantes con paciencia y consistencia, reforzando el autocontrol y la autoestima en sus hijos. Además, se les brindan herramientas para crear un entorno familiar de apoyo que favorezca el desarrollo emocional y académico del niño.",
-      image: "/entrenamiento.jpg",
-      alt: 'Descripción de la imagen 6'
     }
   ];
 

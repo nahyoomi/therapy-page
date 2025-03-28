@@ -113,10 +113,11 @@ const About = () => {
                 <SpecializationCard
                   icon={<IoIosHappy />}
                   title="Bienestar psicoemocional"
-                  description="Identificar y manejar el estrés, la ansiedad 
-                  y la frustración asociados con el TDAH. Mejora de las 
-                  relaciones interpersonales. Fomentar un equilibrio emocional 
-                  y una mayor resiliencia ante los desafíos diarios."
+                  description="Asesoramiento psicológico adaptado a las necesidades 
+                  de los adultos y de las empresas para fomentar la salud mental 
+                  y prevenir y gestionar el estrés. Mejora de las relaciones 
+                  interpersonales, desarrollo de estrategias para el equilibrio 
+                  emocional y una mayor resiliencia ante los desafíos diarios."
                 />
               </div>
             </section>
@@ -257,7 +258,7 @@ const About = () => {
         <h1 className="text-3xl font-bold text-[#46617e]">
           Dra. Esmeralda Conde
         </h1>
-        <h2 className="text-[#46617e]">Psicóloga Especialista en TDAH</h2>
+        <h2 className="text-[#46617e]">Psicóloga Clinica y Educativa</h2>
       </header>
 
       <section className="text-center py-10 bg-white shadow-lg rounded-lg mx-6 mt-6">
@@ -275,8 +276,7 @@ const About = () => {
           Ayudo a los{" "}
           <span className="text-[#3B8BAE] font-bold"> adultos, adolescentes y niños</span>{" "}
           con{" "}
-          <span className="text-[#3B8BAE] font-bold">TDAH</span>{" "}
-          en la mejora de sus síntomas y en su bienestar psicoemocional.
+          dificultades a descubrir sus fortalezas para alcanzar sus metas.
         </p>
         <div className="mt-6">
           <button

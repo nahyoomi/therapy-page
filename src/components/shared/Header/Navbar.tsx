@@ -9,7 +9,7 @@ const itemToPathMap: { [key: string]: string } = {
   'Servicios': '/services',
   'FAQ': '/faq',
   'Blog': '/blog',
-  'TDAH': '/tdah',
+  'Neurodivergencia': '/neurodivergencia',
   'Contacto': '/contact'
 };
 

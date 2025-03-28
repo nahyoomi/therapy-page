@@ -33,11 +33,11 @@ export const Footer = () => {
         title="Navegación"
         items={[
           { text: "Rusell A. Barkley", url: "https://www.russellbarkley.org/" },
-          { text: "Red Cenit", url: "https://www.redcenit.com/" }, // Reemplaza con el enlace correcto
-          { text: "El neuropediatra", url: "https://www.elneuropediatra.es/" }, // Reemplaza con el enlace correcto
-          { text: "Mis TDAHs favoritas", url: "https://www.mistdahfavoritas.com/" }, // Reemplaza con el enlace correcto
-          { text: "Fundación CADAH", url: "https://www.fundacioncadah.org/" }, // Reemplaza con el enlace correcto
-          { text: "Artículos", url: "https://www.russellbarkley.org/factsheets.html" }
+          { text: "Instituto Nacional de Seguridad y Salud para el Trabajo", url: "https://www.insst.es/materias/riesgos/riesgos-psicosociales/estres-laboral" }, 
+          { text: "El neuropediatra", url: "https://www.elneuropediatra.es/" }, 
+          { text: "Somos neurodivergentes", url: "https://neurodivergentes.com/" }, 
+          { text: "Child Mind Institute", url: "https://childmind.org/es/articulo/que-es-la-neurodiversidad/" },
+          { text: "Center for Parent Information & Resources", url: "https://www.parentcenterhub.org/aprendizaje/" }
         ]}
       />
         <FooterSection
@@ -45,7 +45,7 @@ export const Footer = () => {
           items={[
             { text: "Dra. Esmeralda Conde", url: "/about" },
             { text: "Servicios", url: "/services" },
-            { text: "TDAH", url: "/tdah" },
+            { text:'Neurodivergentes',url: '/neurodivergentes'},
             { text: "Blog", url: "/blog" },
             { text: "FAQ", url: "/faq" },
             { text: "Contacto", url: "/contact" }

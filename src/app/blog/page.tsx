@@ -53,7 +53,17 @@ Al detectar a tiempo que un niño(a) tiene dificultades para aprender la lectura
 
 Artículo revisado: Sánchez-Carmona A. et al (2023). El impacto del TDAH sobre la lectura. MEDICINA (Buenos Aires). Vol. 83 (Supl. II): 22-26.`,
     image_url: "/nino.jpg"
+  },
+  {
+    id: 3,
+    title: "El coaching para padres de niños(as) con autismo.",
+    summary: "Es un elemento clave donde los padres pueden ayudar a mejorar significativamente la capacidad cognitiva, la función social, el comportamiento y las habilidades adaptativas de sus  hijos(as), además de aumentar su autoeficacia y su compromiso con el tratamiento.",
+    content: `El artículo "Parent empowerment and coaching in early intervention: study protocol for a feasibility study" aborda la importancia de las intervenciones tempranas mediadas por los padres en niños con Trastorno del Espectro Autista (TEA). Estas intervenciones han demostrado mejorar significativamente las habilidades cognitivas, la función social, el comportamiento y las habilidades adaptativas de los niños, además de aumentar la autoeficacia y el compromiso de los padres en el tratamiento.
+    Un componente esencial de estas intervenciones es el "coaching" parental, donde los clínicos enseñan activamente a los padres técnicas para mejorar el funcionamiento de sus hijos. Sin embargo, la evidencia sugiere que, en contextos comunitarios, los clínicos rara vez implementan este tipo de "coaching", aunque las barreras específicas que lo dificultan aún no se han identificado claramente.
+    El estudio propuesto tiene como objetivo desarrollar y probar un conjunto de herramientas de estrategias de implementación destinadas a aumentar el uso del "coaching" parental por parte de los clínicos en programas de intervención temprana comunitarios.`,
+    image_url: "/mother.jpg"
   }
+
 ];
 
 export default function Blog() {
@@ -73,7 +83,7 @@ export default function Blog() {
       <StaticBanner
         backgroundImage="/investigacion.jpg"
         subtitle="Blog"
-        title="Conoce investigaciones sobre TDAH"
+        title="Investigaciones recientes"
       />
       <div className="p-5 bg-gradient-to-r from-blue-50 to-blue-100 min-h-screen">
         <div className="max-w-7xl mx-auto">
@@ -96,7 +106,7 @@ export default function Blog() {
           ) : (
             <>
               <div className="font-bold text-center text-blue-700 mb-10">
-                <span className="text-3xl p-5">Artículos Recientes</span>
+                <span className="text-3xl p-5">TDAH, TEA, Dificultades de aprendizaje...</span>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {staticArticles.map((article) => (
