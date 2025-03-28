@@ -16,11 +16,11 @@ const Menu = () => {
         {isOpen && (
           <div className="absolute right-0 mt-2 w-48 bg-white text-black rounded-lg shadow-lg">
             <ul className="flex flex-col p-2">
-              <li className="py-1 px-2 hover:bg-gray-200"><link href="/services">SERVICIOS</link></li>
-              <li className="py-1 px-2 hover:bg-gray-200"><link href="/tdah">TDAH</link></li>
-              <li className="py-1 px-2 hover:bg-gray-200"><link href="/blog">BLOG</link></li>
-              <li className="py-1 px-2 hover:bg-gray-200"><link href="/faq">FAQ</link></li>
-              <li className="py-1 px-2 hover:bg-gray-200"><link href="/contact">CONTACTO</link></li>
+              <li className="py-1 px-2 hover:bg-gray-200"><Link href="/services">SERVICIOS</Link></li>
+              <li className="py-1 px-2 hover:bg-gray-200"><Link href="/tdah">TDAH</Link></li>
+              <li className="py-1 px-2 hover:bg-gray-200"><Link href="/blog">BLOG</Link></li>
+              <li className="py-1 px-2 hover:bg-gray-200"><Link href="/faq">FAQ</Link></li>
+              <li className="py-1 px-2 hover:bg-gray-200"><Link href="/contact">CONTACTO</Link></li>
             </ul>
           </div>
         )}
