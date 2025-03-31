@@ -4,10 +4,11 @@ import experience from './data/experience.json';
 const ExperienceTable = () => (
   <div className="w-full">
     {experience.map((item, index) => (
-      <div key={index} className="py-4 flex items-center">
-        <div className="bg-[#46617e] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 px-4 py-4 text-sm font-medium">{item.years}</div>
-        <div className="px-4 py-4 text-sm text-gray-500">{item.descripcion}</div>
-      </div>
+      <ul key={index} className="flex items-start">
+        <li className="px-4 py-4 text-sm text-gray-500 relative pl-6 before:content-[''] before:absolute before:left-0 before:top-6 before:w-2 before:h-2 before:bg-[#46617e] before:rounded-full">
+          {item.descripcion}
+        </li>
+      </ul>
     ))}
   </div>
 );

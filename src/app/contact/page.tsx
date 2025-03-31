@@ -47,8 +47,6 @@ const Contact = () => {
       />
       <div className="p-5 bg-gradient-to-r from-blue-50 to-blue-100">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-blue-700 mb-10">Contáctanos</h2>
-          
           {/* Servicios */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
